@@ -1,3 +1,3 @@
 # dotfiles
 
-This repository holds my configuration which I collected overtime.
+My dotfiles - combination of stuff from the internet and github :) 
