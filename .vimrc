@@ -1,8 +1,6 @@
-execute pathogen#infect()
-
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme zellner 
 let g:solarized_termtrans=1
 
 " Make Vim more useful
@@ -49,7 +47,7 @@ syntax on
 " Highlight current line
 "set cursorline
 " Make tabs as wide as two spaces
-set tabstop=4
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
@@ -107,4 +105,5 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
+execute pathogen#infect()
 
